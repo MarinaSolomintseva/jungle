@@ -1,0 +1,196 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 25px;
+    line-height: 30px;
+
+
+}
+
+
+*,
+*:before;
+*:after;{
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+
+    margin: 0;
+}
+
+
+p{
+    margin: 0 0 10px;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1000px;
+    margin: 0 auto;
+
+
+
+}
+
+/*Page===============================*/
+
+.page{
+    margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    background: #000 url("../img/bg.jpg") top no-repeat;
+    background-size: cover;
+
+}
+
+
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1940px;
+    width: 100%;
+    margin: 0 0 0 50px;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+
+
+.header{
+
+background: none;
+
+}
+.header-nav{
+    display: flex;
+
+}
+.header-nav-link{
+
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .5s linear;
+}
+.header-nav-link:hover{
+    color: #459A86;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 30px;
+
+}
+
+
+.header-nav-bag{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: none;
+    text-decoration: none;
+}
+
+.header-nav-search{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: none;
+    text-decoration: none;
+}
+
+.block{
+    max-height: 535px;
+    height: auto;
+    margin: 30px 0 0 50px;
+    display: flex;
+
+
+}
+
+
+
+.title{
+
+    color: #fff;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .5s linear;
+    letter-spacing: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+
+}
+
+
+.content-block{
+    display: inline;
+
+
+}
+
+
+.start{
+    color: #fff;
+    font-size: 60px;
+    text-transform:inherit;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration:underline 2px;
+    transition: color .5s linear;
+    Position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+.start:hover{
+   color: #459A86;
+}
+
+
+
+/*Media*/
+
+
+@media (){
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
